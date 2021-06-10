@@ -4,7 +4,6 @@ import './headerLinks.scss'
 import cartIcon from '../../images/cart-ico.svg'
 import WatchStoreLogo from '../../images/wslogo.svg'
 
-
 export const HeaderLinks = () => {
   return (
     <header>
@@ -14,7 +13,7 @@ export const HeaderLinks = () => {
         </NavLink>
       </div>
       <div className="center-menu">
-        <NavLink to="/login" >Login</NavLink>
+        <NavLink to="/login">Login</NavLink>
       </div>
       <div className="right-menu">
         <div className="cart-small">

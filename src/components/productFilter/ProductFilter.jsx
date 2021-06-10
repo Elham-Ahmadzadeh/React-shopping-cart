@@ -8,7 +8,6 @@ function ProductFilter() {
     useContext(ProductContext)
   const [selectedItems, setSelectedItems] = useState('new')
 
-
   function filterItems(word) {
     switch (word) {
       case 'new':

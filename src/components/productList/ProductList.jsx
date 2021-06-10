@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import ProductContext from '../../context/ProductContext'
 import './productList.scss'
 
-
 function ProductList(props) {
   const { productItem } = useContext(ProductContext)
 
@@ -33,11 +32,11 @@ function ProductList(props) {
   )
 }
 
-
-export default connect((state) => ({ product:state}),{
-    addToCart(product) {
-      return {
-        type: 'ADD_TO_CART',
-        product
-      }
-    }}) (ProductList)
+export default connect((state) => ({ product: state }), {
+  addToCart(product) {
+    return {
+      type: 'ADD_TO_CART',
+      product,
+    }
+  },
+})(ProductList)
