@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Input = styled.input`
   padding: 4px 8px;
@@ -10,11 +10,10 @@ const Input = styled.input`
   width: 100%;
   box-sizing: border-box;
   height: 40px;
-`;
+`
 
 const Feedback = styled.div`
   color: red;
-`;
+`
 
-
-export { Input, Feedback };
+export { Input, Feedback }

@@ -6,7 +6,7 @@ const initialState = {}
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 const store = createStore(
   combineReducers({
-    cart: cartReducer,
+    cart: cartReducer
   }),
   initialState,
   composeEnhancer(applyMiddleware(thunk))

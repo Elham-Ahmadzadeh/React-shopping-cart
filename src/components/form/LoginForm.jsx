@@ -32,7 +32,7 @@ function LoginForm(props) {
           .string()
           .required('required')
           .min(8, 'password is too short - should be 8 characters minimum.')
-          .matches(/(?=.*[0-9])/, 'password must contain a number.'),
+          .matches(/(?=.*[0-9])/, 'password must contain a number.')
       })}
     >
       {(props) => {
@@ -43,7 +43,7 @@ function LoginForm(props) {
           handleChange,
           handleBlur,
           handleSubmit,
-          isSubmitting,
+          isSubmitting
         } = props
 
         return (

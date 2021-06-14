@@ -20,9 +20,7 @@ function App(props) {
   }, [])
   return (
     <Router>
-      <ProductContext.Provider
-        value={{ productItem }}
-      >
+      <ProductContext.Provider value={{ productItem }}>
         <HeaderLinks value={props.value} />
         <AppRouter />
       </ProductContext.Provider>

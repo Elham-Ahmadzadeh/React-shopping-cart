@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from 'styled-components'
 
 const Button = styled.button`
   color: black;
@@ -14,8 +13,7 @@ const Button = styled.button`
   background-color: blueviolet;
   &:disabled {
     background: #fff;
-
   }
-`;
+`
 
-export { Button };
+export { Button }

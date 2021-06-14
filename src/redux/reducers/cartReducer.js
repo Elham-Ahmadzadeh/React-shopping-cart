@@ -1,6 +1,6 @@
 import { ADD_TO_CART } from '../actions/actionTypes'
 const initialState = {
-  cartArr: [],
+  cartArr: []
 }
 export const cartReducer = (state = initialState, action) => {
   switch (action.type) {

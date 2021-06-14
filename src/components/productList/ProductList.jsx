@@ -36,7 +36,7 @@ export default connect((state) => ({ product: state }), {
   addToCart(product) {
     return {
       type: 'ADD_TO_CART',
-      product,
+      product
     }
-  },
+  }
 })(ProductList)

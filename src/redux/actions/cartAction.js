@@ -4,7 +4,7 @@ export const addToCart = (product) => (dispatch, getState) => {
   getState().product
   dispatch({
     type: ADD_TO_CART,
-    payload: product,
+    payload: product
   })
   dispatch({ type: ADD_TO_CART, payload: { product } })
 }

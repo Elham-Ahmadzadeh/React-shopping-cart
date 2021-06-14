@@ -22,5 +22,5 @@ function Cart(props) {
 }
 
 export default connect((state) => ({
-  cartArr: state.cart,
+  cartArr: state.cart
 }))(Cart)
